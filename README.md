@@ -94,10 +94,15 @@ python run_experiment.py --env environment.txt --instructions instructions.txt
 - **Tool-use tracks:** allow the model to write helper code; still scored by the same metrics.
 
 ---
+## License
+
+Code is licensed under the [MIT License](LICENSE).
+
+Documentation, images, and sample environment files are licensed under [CC BY 4.0](LICENSE-CC-BY).
+
 
 ## Notes
 - Angle sign is defined by `TURN_CONVENTION` in `environment.txt`.
-- Code and design are **WIP**; much of it was authored with LLM assistance.
-- Choose a license before publishing (MIT/Apache-2.0 are common for benchmarks).
+- Code and design are Vibecodet; much of it was authored with LLM assistance.
 
 Feedback and PRs welcome!
