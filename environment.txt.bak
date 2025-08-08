@@ -1,0 +1,53 @@
+# Canvas
+SCREEN_WIDTH=800
+SCREEN_HEIGHT=600
+
+# Start pose
+START_X=0
+START_Y=0
+START_HEADING_DEG=0
+
+# Goal
+GOAL_X=500
+GOAL_Y=0
+GOAL_RADIUS_CM=10   # tolerance to count "reached goal"
+
+# Robot shape (affects clearance via Minkowski sum)
+ROBOT_SHAPE=rect           # rect | circle | polygon
+ROBOT_WIDTH_CM=20          # for rect
+ROBOT_HEIGHT_CM=20
+ROBOT_RADIUS_CM=0          # for circle (robot radius)
+ROBOT_POLY_FACES=0         # for polygon (faces >= 3)
+ROBOT_POLY_RADIUS_CM=0     # polygon circumradius
+CLEARANCE_CM=5
+
+
+# Angle convention for turn(): right-positive (clockwise) or left-positive (counterclockwise)
+TURN_CONVENTION=right_positive
+
+# Obstacles (you can repeat the line)
+# OBSTACLE=polygon:x,y,radius_cm,faces[,rotation_deg]
+# e.g. a rotated hexagon:
+
+# --- Obstacles (auto-generated) ---
+
+# --- Obstacles (auto-generated) ---
+
+# --- Obstacles (auto-generated) ---
+
+# --- Obstacles (auto-generated) ---
+
+# --- Obstacles (auto-generated) ---
+
+# --- Obstacles (auto-generated) ---
+
+# --- Obstacles (auto-generated) ---
+
+# --- Obstacles (auto-generated) ---
+
+# --- Obstacles (auto-generated) ---
+OBSTACLE=circle:290.24,-29.79,37.50
+OBSTACLE=polygon:162.84,-44.53,96.67,6,0.00
+OBSTACLE=polygon:295.53,29.94,75.65,3,0.00
+OBSTACLE=polygon:197.07,29.10,70.61,6,0.00
+OBSTACLE=polygon:75.72,39.39,53.61,5,0.00

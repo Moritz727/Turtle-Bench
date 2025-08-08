@@ -1,0 +1,10 @@
+{
+  "total_path_length_cm": 650.0,
+  "final_x": 500.0,
+  "final_y": 0.0,
+  "final_heading_deg": 0.0,
+  "reached_goal": true,
+  "min_clearance_cm": -7.457,
+  "collision_samples": 74,
+  "turn_convention": "right_positive"
+}
