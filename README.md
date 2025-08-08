@@ -94,10 +94,6 @@ python run_experiment.py --env environment.txt --instructions instructions.txt
 - **Tool-use tracks:** allow the model to write helper code; still scored by the same metrics.
 
 ---
-## License
-
-Code is licensed under the [MIT License](LICENSE).
-
 
 ## Notes
 - Angle sign is defined by `TURN_CONVENTION` in `environment.txt`.
